@@ -26,3 +26,7 @@
 3. The backend API generates a unique short code and stores the mapping in MySQL along with the userId.
 
 4. When someone accesses the short URL, they are redirected to the original long URL.
+
+
+https://github.com/user-attachments/assets/aa35542e-48ff-4cdd-844e-a680aca4847d
+
