@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Pattaya&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-main: #9d00ff;
+  --font-lexend: "lexend", "sans-serif";
+  --font-pattaya: "pattaya", "sans-serif";
+}
+
+html {
+  @apply bg-white text-black transition-colors duration-300;
+}
+
+html.dark {
+  @apply bg-[#121212] text-white transition-colors duration-300;
+}
